@@ -12,7 +12,7 @@ header {
     color: #fff;
     padding: 10px 0;
     position: fixed;
-    width: 100%; /* Extend to the full width of the screen */
+    width: 100%; /* Extend to full width of the screen */
     top: 0;
     display: flex;
     justify-content: center;
