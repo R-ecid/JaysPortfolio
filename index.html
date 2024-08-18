@@ -1,79 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jay's Portfolio</title>
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Cheung's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
 <body>
-    <!-- Header -->
-<header>
-    <nav>
-        <ul>
-            <li><a href="#about">👤 About Me</a></li>
-            <li><a href="#projects">💼 Projects</a></li>
-            <li><a href="#contact">📧 Contact</a></li>
-            <li><a href="#github">👾 GitHub</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- Header Section -->
+    <header id="landing">
+        <h1>Jay Cheung's Portfolio</h1>
+    </header>
 
-    <!-- Hero Section -->
-    <section id="home">
-        <!-- Content goes here -->
+    <!-- About Me Section -->
+    <section id="about">
+        <h1>🧑‍💻 About Me</h1>
+        <p>I'm a college graduate with a Bachelor's degree in Computer Science from the University at Buffalo. I'm currently seeking a fullstack development job. In my spare time, I enjoy reading and exploring different types of tea.</p>
     </section>
 
-    <!-- About Section -->
-<section id="about">
-    <h1>👤 About Me</h1>
-    <p>I'm currently a senior at the University at Buffalo, pursuing a Bachelor's degree in Computer Science. Born and raised in New York City, I've developed a passion for creating software, and in my spare time, I enjoy reading, playing games, and exploring different types of tea.</p>
-</section>
+    <!-- Projects Button Section -->
+    <section id="projects-button">
+        <h1>📂 Projects</h1>
+        <p><a href="projects.html">Click here to view my projects!</a></p>
+    </section>
 
- <!-- Projects Section -->
-<section id="projects">
-    <h1>Projects</h1>
-    
-    <!-- Existing Projects -->
-
-    <h2>Trifora</h2>
-    <p>Trifora is a progressive web application inspired by Reddit, designed and developed with a team of 5 fellow computer science enthusiasts. This React-based application offers a platform where users can create communities, initiate posts, upvote content, and engage in conversations via comments. Collaboration was streamlined using Zenhub as a project management tool, enabling efficient task distribution, timely completion, and consistent achievement of project milestones. One of the defining features of our development process was regular usability testing, which provided critical insights to guide iterative enhancements. This user-centric approach helped us to align the application's functionality with user expectations and foster continual progress.</p>
-    <img src="images/trifora.png" alt="Trifora screenshot 1" style="width: 80%; max-width: 500px;">
-    <img src="images/trifora2.png" alt="Trifora screenshot 2" style="width: 80%; max-width: 500px;">
-    
-    <h2>Ordinary Task Tracker</h2>
-    <p>Task management is far from ordinary with the Ordinary Task Tracker. Designed to bring a splash of fun and a wave of organization to your daily tasks, this application allows you to add and remove items to a customizable list. But that's not all - each addition triggers a unique message, tailored according to the settings you choose. Transforming the mundane into the extraordinary, the Ordinary Task Tracker brings a new level of interactivity to task management, turning each accomplishment into a celebration.</p>
-    <img src="images/ordinarytasktracker.png" alt="Ordinary Task Tracker screenshot" style="width: 80%; max-width: 500px;">
-
-    <!-- ... -->
-
-    <!-- In Progress Projects -->
-    <h2>In Progress</h2>
-    
-    <h3>DefineMeNow</h3>
-    <p>In the realm of web development and programming, terms and jargon can often get overwhelming. DefineMeNow is a Chrome extension I'm currently working on to address this challenge. With this tool, users can simply highlight a computer science term or any other phrase, and the extension will provide a handy definition and usage examples on the spot. Keep an eye on this space for updates on this exciting project!</p>
-    
-</section>
+    <!-- Work Experience Section -->
+    <section id="workexperience">
+        <h1>💼 Work Experience</h1>
+        <h2>Online Instructor | iD Tech (Remote) | March 2024 – June 2024</h2>
+        <p>I conducted personalized 1-on-1 online sessions, focusing on Python, LUA, and Unreal Engine, while designing engaging curricula tailored to each student's needs. Through the use of various online teaching tools, I fostered an interactive learning environment and ensured high-quality instruction by closely monitoring student progress.</p>
+    </section>
 
     <!-- Contact Section -->
-<section id="contact">
-    <h1>Contact</h1>
-    <p>Feel free to reach out to me!</p>
-    <p>Email: <a href="mailto:jaycheung321@gmail.com">jaycheung321@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/jay-cheung-444802214/" target="_blank">Jay Cheung</a></p>
-</section>
+    <section id="contact">
+        <h1>✉️ Contact</h1>
+        <p>Feel free to reach out to me!</p>
+        <p>Email: <a href="mailto:jaycheung321@gmail.com">jaycheung321@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/jay-cheung-444802214/" target="_blank">Jay Cheung</a></p>
+    </section>
 
     <!-- GitHub Section -->
-<section id="github">
-    <h1>👾 GitHub</h1>
-    <p>Click here to check out my <a href="https://github.com/R-ecid" target="_blank">GitHub!</a></p>
-</section>
+    <section id="github">
+        <h1>🐱 GitHub</h1>
+        <p>Click here to check out my <a href="https://github.com/R-ecid" target="_blank">GitHub!</a></p>
+    </section>
 
-    <!-- Footer -->
-    <footer>
-        <!-- Content goes here -->
-    </footer>
+    <script>
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+        });
+    </script>
 </body>
 </html>
